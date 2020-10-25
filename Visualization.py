@@ -118,28 +118,4 @@ def legend(turtle):
 
     turtle.write("Notes: 1 arrow = 1 BS, 1 circle = 1 debunked BS",
                  font=("Arial", 12, "normal"))
-  
-
-    
-def main():
-    #Create main variables
-    '''
-    {"Category for bullshit" : (total BS, debunked BS)}
-    '''
-    categories = {
-        "Facebook": (5,3),
-        "Youtube": (2,1),
-        "News": (1,0),
-        "Chat": (3,3),
-        "Family": (1,0),
-        "Debates": (3,3)
-    }
-    drawGraph(categories)
-               
-main()
-
-    
-    
-    
-
-    
+ 
